@@ -38,6 +38,22 @@ flowchart LR
 - Tests for data validation including duplicate clip entries and unsafe manifest paths.
 - UI regression-testing scripts and a versioned source archive.
 
+## Application screenshots — captured Windows UI
+
+### Completed AI video editing job
+
+![EDIORA Match Video Editing showing Kaggle session finished, 100% and Open final video](assets/ediora-match-ai-editing-complete.png)
+
+The captured application screen shows the **AI Video Editing** workspace reporting **COMPLETE**, **Kaggle session finished**, **100%**, and an **Open final video** action.
+
+### Matched source from fingerprint library
+
+![EDIORA Match Match clips showing original Majlis matched with 87 percent acoustic similarity](assets/ediora-match-acoustic-matching.png)
+
+The captured **Match clips** workspace shows a **Matched** result with **87.0% acoustic similarity**, a named source, and a **COMPLETE** matching status. This similarity figure is the app's reported metric, not independently validated ground truth.
+
+**Evidence scope:** These are original application screenshots demonstrating that the interface displayed finished results. They do not by themselves verify final video quality, the accuracy of the acoustic match, or a full reproducible Windows/cloud run.
+
 ## Evidence
 
 Read the [test results and known limitations](ediora-match-test-results.md). The local review found **14 selected Python tests passing** and **1 JavaScript regression test passing**; two additional JavaScript tests failed during this review. This is **not** a claim that the entire application passes all tests.
@@ -50,6 +66,6 @@ Read the [test results and known limitations](ediora-match-test-results.md). The
 - Accurate progress indication during live download/upload.
 - Performance and reliability across different machines and network conditions.
 
-**Demo status:** Not yet published. A real screen recording with credentials hidden is planned; no simulated success is presented as proof.
+**Evidence status:** Original Windows UI screenshots are now published. A full screen-recorded start-to-finish demo has not been included.
 
 [Back to all projects](README.md)
