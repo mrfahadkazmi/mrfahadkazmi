@@ -16,6 +16,7 @@ My featured Android editor project, built around a mobile timeline, touch gestur
 
 - Android Java / C++ integration and React / TypeScript editor
 - Mobile timeline, Transform / Speed / Motion / Effects, captions and export
+- **[Watch Android working demo (7 min 14 sec)](https://drive.google.com/file/d/1wh3sz0W8Z6F_Ck335He5LOVEH8g6wnVq/view?usp=drivesdk)** — timeline, editing controls, captions and export-to-save screen
 - [Technical review: 26 of 29 selected checks passed](projects/ediora-editor-test-results.md)
 - **Google Play launch planned — not published yet**
 
