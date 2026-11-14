@@ -36,6 +36,7 @@ A video processing and content-matching system designed to automate repetitive m
 - Kaggle cloud processing integration
 - Google Drive import/export
 - Remote job management and monitoring
+- [View real Windows screenshots — 100% completed edit and 87% matching result](projects/ediora-match.md#application-screenshots--captured-windows-ui)
 
 ### [EDIORA Lite Downloader](projects/ediora-lite-downloader.md)
 A Windows desktop application for video downloading and media management.
