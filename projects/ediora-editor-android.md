@@ -25,14 +25,14 @@ These are features visible in code and project documentation; this review did no
 
 ## Technical evidence
 - Source reviewed: EDIORA_Android_Studio_v1.8.42.zip from the project owner's Library.
-- APK reviewed: EDIORA-v1.8.42-debug.apk; archive integrity verified, 3 DEX files and native libraries present.
+- APK reviewed: EDIORA-v1.8.42-debug.apk; archive integrity verified, 3 DEX files and 12 native libraries present. All 12 libraries passed static 16 KB ELF and APK-entry alignment checks; release AAB and device testing remain unverified.
 - Selected Node.js checks: **26 passed / 29 total**. Three checks failed or could not load in the local environment.
 - No clean Android Studio rebuild, phone test, final export verification or Play Console submission was performed in this review.
 
 [Read local test results and Play Store preparation checklist](ediora-editor-test-results.md).
 
 ## Planned Google Play launch
-The intended release is forthcoming, not already live. Required work includes Android API 36 target, signed release Android App Bundle, 16 KB native library alignment checks, device testing, store listing and privacy review.
+The intended release is forthcoming, not already live. Required work includes Android API 36 target, signed release Android App Bundle and its own 16 KB alignment validation, device testing, store listing and privacy review.
 
 ## Scope and disclosure
 A separate Drive project archive is a 903 MB RAR that exceeded the connected downloader limit. Its contents were not compared with the versioned Library ZIP reviewed here. Private source code and credentials are not published in this public portfolio.
