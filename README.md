@@ -10,6 +10,15 @@ I enjoy designing useful software, solving technical problems, improving user in
 
 [Explore project case studies, technical evidence and verification status](projects/README.md). The case studies distinguish source review from live testing; not every feature has been independently verified.
 
+### [EDIORA Editor (Android) — Mobile Video Editing](projects/ediora-editor-android.md)
+
+My featured Android editor project, built around a mobile timeline, touch gestures, captions, editing tools, export workflows and native Android integration.
+
+- Android Java / C++ integration and React / TypeScript editor
+- Mobile timeline, Transform / Speed / Motion / Effects, captions and export
+- [Technical review: 26 of 29 selected checks passed](projects/ediora-editor-test-results.md); full device verification still pending
+- **Google Play launch planned — not published yet**
+
 ### [EDIORA Studio — Video Editing & Media Processing](projects/ediora-studio.md)
 A desktop video editing project focused on efficient video processing and editing workflows.
 
@@ -38,6 +47,7 @@ A Windows desktop application for video downloading and media management.
 
 ## Engineering Evidence
 
+- [EDIORA Editor (Android) — source review, test results and Play Store checklist](projects/ediora-editor-test-results.md)
 - [EDIORA Match — local test results and limitations](projects/ediora-match-test-results.md)
 - [How I document software quality and testing](docs/verification-method.md)
 - Live Windows application demos and reusable sanitized source samples are future verification steps.
