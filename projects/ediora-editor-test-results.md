@@ -21,7 +21,9 @@ Those failures do not prove that corresponding features fail on Android; they in
 
 ## APK validation
 - APK ZIP integrity test found no damaged member.
-- 3 DEX files and native libraries for arm64-v8a and x86_64 were present.
+- 3 DEX files and 12 native libraries for arm64-v8a and x86_64 were present.
+- **PASS — Native library alignment in inspected debug APK:** all 12 `.so` libraries had ELF PT_LOAD alignments of `0x4000` (16 KB), and all 12 uncompressed ZIP entries had data offsets divisible by 16384 bytes. Verified locally using `readelf -W -l` and APK ZIP local header offsets.
+- This static alignment result is not a substitute for Android 16 KB page-size *runtime* testing or verifying a future signed AAB.
 - Not tested: actual installation and use on a phone/emulator, camera/mic PIP, export MP4 playback, crash-free operation, memory usage, device compatibility.
 
 ## Build configuration observed
@@ -38,7 +40,7 @@ Those failures do not prove that corresponding features fail on Android; they in
 ## Planned Google Play submission — outstanding work
 1. Upgrade and validate the Android phone app's targetSdk to **API 36 or higher**, as required for new Google Play app submissions since August 31, 2026. [Google Play target API policy](https://support.google.com/googleplay/android-developer/answer/11926878).
 2. Generate and sign a **release AAB** rather than upload the reviewed debug APK.
-3. Check all native .so libraries and packaging for **16 KB page-size support**. [Android guidance](https://developer.android.com/guide/practices/page-sizes).
+3. **Partially checked:** all 12 native .so libraries in the supplied debug APK passed 16 KB ELF and APK entry-alignment checks. A new **release AAB** still needs alignment and runtime testing on a 16 KB page-size device. [Android guidance](https://developer.android.com/guide/practices/page-sizes).
 4. Run real-device smoke tests: import video, scrub/trim/split, save/reopen, captions, sound, PIP camera/mic, export, output playback and permissions.
 5. Prepare a privacy policy, accurate data-safety disclosures, screenshots, age/content declarations and required Play Console testing.
 6. Resolve blocked test imports; rerun complete automated tests with installed project dependencies; run Android Gradle build in an SDK-enabled environment.
