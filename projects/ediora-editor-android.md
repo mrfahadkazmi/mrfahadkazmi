@@ -23,6 +23,20 @@ EDIORA Editor is a touch-first Android video editing application project. The in
 
 These are features visible in code and project documentation; this review did not demonstrate all of them working on a physical Android device.
 
+## Working application demo
+
+**[Watch EDIORA Editor — Android screen recording (7 min 14 sec)](https://drive.google.com/file/d/1wh3sz0W8Z6F_Ck335He5LOVEH8g6wnVq/view?usp=drivesdk)**
+
+Recorded on an Android phone on 14 November 2026. The uncut screen recording shows actual app operation rather than a promotional render:
+
+- **00:00–00:45:** EDIORA Editor workspace, video previews and a timeline with imported footage.
+- **00:45–02:05:** Adjustment tools, timeline playback and edit controls.
+- **~02:05–02:30:** Auto Captions settings and caption track interface.
+- **~02:30–07:05:** Export progress on the phone, including a visible 1080 × 1920 export dialog.
+- **~07:05–07:14:** Android save dialog showing `EDIORA_export.mp4`.
+
+**Evidence scope:** This is genuine UI and export-workflow evidence. It does not independently establish exported-file playback, correctness of every editing tool, or performance on other Android devices. Third-party sample footage may appear in the recording.
+
 ## Technical evidence
 - Source reviewed: EDIORA_Android_Studio_v1.8.42.zip from the project owner's Library.
 - APK reviewed: EDIORA-v1.8.42-debug.apk; archive integrity verified, 3 DEX files and 12 native libraries present. All 12 libraries passed static 16 KB ELF and APK-entry alignment checks; release AAB and device testing remain unverified.
