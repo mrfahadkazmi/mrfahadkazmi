@@ -35,6 +35,6 @@ These are features visible in code and project documentation; this review did no
 The intended release is forthcoming, not already live. Required work includes Android API 36 target, signed release Android App Bundle, 16 KB native library alignment checks, device testing, store listing and privacy review.
 
 ## Scope and disclosure
-The supplied [Google Drive project archive](https://drive.google.com/file/d/1h2oyhbSr6EaT0bjDFHPZaqhLk4ArfQc4/view?usp=sharing) is a 903 MB RAR that exceeded the connected downloader limit. Its contents were not compared with the versioned Library ZIP reviewed here. Private source code and credentials are not published in this public portfolio.
+A separate Drive project archive is a 903 MB RAR that exceeded the connected downloader limit. Its contents were not compared with the versioned Library ZIP reviewed here. Private source code and credentials are not published in this public portfolio.
 
 [Back to all projects](README.md)
