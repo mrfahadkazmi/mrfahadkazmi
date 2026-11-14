@@ -5,7 +5,7 @@ A collection of Android, desktop software and automation projects by **Fahad Abb
 | Project | Area | Technical evidence |
 | --- | --- | --- |
 | **[EDIORA Editor (Android)](ediora-editor-android.md)** | Android video editing, React/TypeScript, native Android | [Working video demo](https://drive.google.com/file/d/1wh3sz0W8Z6F_Ck335He5LOVEH8g6wnVq/view?usp=drivesdk) + **[v1.8.42 test report: 26 of 29 selected checks passed](ediora-editor-test-results.md)**; Google Play launch planned |
-| [EDIORA Match](ediora-match.md) | Windows desktop software, Python automation, cloud workflows | [Source review and reproducible local test results](ediora-match-test-results.md) |
+| [EDIORA Match](ediora-match.md) | Windows desktop software, Python automation, cloud workflows | [Original Windows screenshots](ediora-match.md#application-screenshots--captured-windows-ui) + [source tests](ediora-match-test-results.md) |
 | [EDIORA Studio](ediora-studio.md) | Video/media workflow automation | Windows executable inspected; live demo pending |
 | [EDIORA Lite Downloader](ediora-lite-downloader.md) | Desktop downloading, dependency packaging, media tools | Windows executable inspected; end-to-end Windows test pending |
 
