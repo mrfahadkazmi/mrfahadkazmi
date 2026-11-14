@@ -1,4 +1,4 @@
-# Hi, I'm Fahad Abbas Shah 👋
+# Hi, I'm Fahad Abbas Shah 
 
 ### Software Developer | Python Automation | Cloud Integration | Desktop Applications
 
